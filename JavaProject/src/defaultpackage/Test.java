@@ -2,7 +2,7 @@ package defaultpackage;
 
 import static java.lang.System.*;
 
-class _ {
+class Test {
 
 	public static void main(String[] _A_V_) {
 		String $ = "";

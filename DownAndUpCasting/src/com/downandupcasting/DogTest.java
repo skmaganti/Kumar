@@ -5,10 +5,11 @@ public class DogTest {
 	public static void main(String[] args) {
 		//Animal a = new Animal();
 		//Dog d = (Dog)a; -- Downcasting compiles fine but fails later
-		//String s = (Stirng)a;
+		//String s = (String)a;
 		
 		Animal a = new Dog();
-		Dog d = (Dog)a;
+//		Dog d = (Dog)a;
+		a.doStuff();
 		//d.Stuff(); -- you can access stuff method from subclass when subclass is downcasted
 		
 		

@@ -7,11 +7,15 @@ public class StringCase3 {
 		String s2 = new String("Satish");
 		String s3 = "Satish";
 		String s4 = "Satish";
+		System.out.println(s3==s4);
+		System.out.println(s3.equals(s4));
+		System.out.println(s1==s2);
+		System.out.println(s1.equals(s2));
 	}
 
 }
 
-// //S1 has two objects created in heap and SCP. 
+//S1 has two objects created in heap and SCP. 
 //For s2 one object is created in heap and object will not create in SCP for s2 since s2 points to SCP already created object
 //s3 refers to SCP object already created
 //s4 refers to SCP object already created

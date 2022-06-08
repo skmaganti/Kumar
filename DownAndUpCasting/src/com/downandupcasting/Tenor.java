@@ -8,6 +8,6 @@ public class Tenor extends Singer{
 public static void main(String[] args) {
 	Tenor t = new Tenor();
 	Singer s = new Tenor();
-	System.out.println(t.sing()+" "+s.sing());
+	System.out.println(s.sing()+" "+s.sing());
 }
 }

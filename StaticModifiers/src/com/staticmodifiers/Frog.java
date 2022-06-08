@@ -8,6 +8,7 @@ public class Frog {
 	}
 	
 	public static void main(String[] args) {
+//		Frog f = new Frog();
 		new Frog();
 		new Frog();
 		new Frog();

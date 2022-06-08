@@ -10,8 +10,7 @@ public class Shadowing {
 		Shadowing f = new Shadowing();
 		System.out.println("size = "+size);
 		changeIt(size);
-		System.out.println("size after changeIt is "+size);
-		
+		System.out.println("size after changeIt is "+size);		
 	}
 
 }

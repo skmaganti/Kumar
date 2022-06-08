@@ -7,7 +7,7 @@ public class ImportStatic {
 
 	public static void main(String[] args) {
 		
-		out.println(MAX_VALUE);
+		out.println(Integer.MAX_VALUE);
 		out.println(toHexString(42));
 		
 	}

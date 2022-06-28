@@ -14,15 +14,20 @@ public class TestParamLambda {
 				ParamInterface<String,Integer> paramAnonymousImplementation = new ParamInterface<String, Integer>() {
 					
 					@Override
-					public void testAbstract(String p, Integer q) {
-						q = p.length(); 
-						System.out.println(q);
+					public void testAbstract(String s, Integer i) {
+						i = i*100;
+						s = s.toLowerCase();
+						System.out.println(s);
+						System.out.println(i);
 					}
 				};
 				paramAnonymousImplementation.testAbstract("SatishM", 1);
 				
 		//Implementation with lambda expression
-				ParamInterface<String,Integer> paramLambdaExpression = (s,i)->System.out.println(s.length());
+				ParamInterface<String,Integer> paramLambdaExpression = (s,i)->{
+					System.out.println(s.toLowerCase());
+					System.out.println(i*100);
+				};
 				paramLambdaExpression.testAbstract("SatishKumar", 2);
 	}
 

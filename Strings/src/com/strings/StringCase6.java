@@ -4,7 +4,7 @@ public class StringCase6 {
 
 	public static void main(String[] args) {
 		String s1 = new String("Satish");
-		String s2 = new String("Satish");
+		String s2 = new String("Satish"); 
 		System.out.println(s1==s2); //false
 		String s3 = "Satish";
 		System.out.println(s1==s3); //false
@@ -18,6 +18,7 @@ public class StringCase6 {
 		final String s8 = "Sa"; //here final is used so s8 is constant
 		String s9 = s8+"tish"; //if both constants are there then operaiton is performed at compile time
 		System.out.println(s4==s9);
+		
 		
 		
 	}

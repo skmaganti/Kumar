@@ -6,5 +6,4 @@ public class MainTest {
 		TestClass testInt = new TestClass();
 		testInt.test();
 	}
-
 }

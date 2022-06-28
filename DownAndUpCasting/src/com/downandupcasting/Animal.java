@@ -1,8 +1,12 @@
 package com.downandupcasting;
 
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
 public class Animal {
-	void doStuff() {
+	Object doStuff() throws IOException{
 		System.out.println("Parent doStuff");
+		return null;
 	}
 	
 	void parentStuff() {

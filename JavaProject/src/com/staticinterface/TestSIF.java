@@ -4,6 +4,8 @@ public class TestSIF implements StaticIface{
 
 	public static void main(String[] args) {
 		System.out.println(StaticIface.m1());
+		StaticClass sc = new StaticClass();
+		sc.m2();
 	}
 
 }

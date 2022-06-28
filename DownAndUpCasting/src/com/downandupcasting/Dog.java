@@ -1,9 +1,14 @@
 package com.downandupcasting;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
 public class Dog extends Animal{
 	
-	void doStuff() {
+	String doStuff(){
 		System.out.println("Child doStuff");
+		return null;
 	}
 	
 	void Stuff() {
